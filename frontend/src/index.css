@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body.dark-mode {
+  background-color: #2c2c2c;
+  color: #f5f5f5;
+}
+
+body.dark-mode .card {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #007bff;
+  border-color: #0056b3;
+}
+
+.welcome-section {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.welcome-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+} */
+
+.card-body {
+  text-align: center;
+}
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+  color: #0056b3;
+  transition: color 0.3s ease;
+}
+
+.recent-activity, .upcoming-goals {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.recent-activity h3, .upcoming-goals h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.recent-activity ul, .upcoming-goals ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.recent-activity li, .upcoming-goals li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.motivational-quote blockquote {
+  font-size: 1.8rem;
+  margin: 10px 0;
+}
+
+.motivational-quote footer {
+  font-size: 1.2rem;
+}
+
+.carousel-item {
+  height: 200px; 
+}
+
+.carousel-caption {
+  color: #000 !important;
+  padding: 10px;
+  border-radius: 5px;
+  top:1%;
+}
+
+.carousel-indicators {
+  top:100px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #000 !important;
+}
+.cover-image {
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height */
+  width: 100%; /* Full width */
+}

@@ -1,0 +1,54 @@
+/* ProgressUpload.css */
+
+.progress-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .progress-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .preview-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  h4 {
+    color: #007bff;
+  }
+  
+  button {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  .delete-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    color: #ff0000; 
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .progress-card:hover .delete-icon {
+    opacity: 1;
+  }

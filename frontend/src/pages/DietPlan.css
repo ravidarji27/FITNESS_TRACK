@@ -1,0 +1,31 @@
+/* DietPlan.css */
+
+.meal-card {
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+  }
+  
+  .meal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  h4 {
+    color: #007bff;
+  }
+  .delete-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    color: #ff0000; 
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .meal-card:hover .delete-icon {
+    opacity: 1;
+  }

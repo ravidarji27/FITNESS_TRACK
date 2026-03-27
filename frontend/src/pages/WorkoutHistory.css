@@ -1,0 +1,56 @@
+/* WorkoutHistory.css */
+.workout-history {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .workout-history h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .workout-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .workout-table th,
+  .workout-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .workout-table th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .workout-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .workout-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.5rem;
+  }
+  .delete-button  {
+    background: none;
+    border: none;
+    color: #d9534f; /* Red color for delete icon */
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .delete-button:hover {
+    color: #c9302c;
+  }
